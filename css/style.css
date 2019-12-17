@@ -10,3 +10,47 @@ Body Font Size = 12px
 Link Hover Color = #20222a
 
 */
+
+body {
+	font-size: 12px;
+	line-height: 17px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #656565;
+	padding: 20px 0;
+}
+
+a:hover {
+	color: #20222a;
+}
+
+div {
+	margin: 0 auto;
+	width: 75%;
+}
+
+#headline {
+	margin: 10px auto;
+}
+
+#links_list{
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+}
+
+#links_list li {
+	display: inline;
+}
+
+#links_list li img {
+	width: 24%;
+	border: 3px solid rgb(199, 199, 199);
+}
+
+#bottom_links {
+	margin-top: 20px;
+}
+
+p.blog {
+	margin: 5px 0;
+}
